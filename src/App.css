@@ -1,0 +1,49 @@
+body{
+  font-family: sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(122 136 221)
+}
+h3{
+  color: #f6f6f6;
+}
+button{
+  background-color: rgb(226, 43, 43);
+  text-align: center;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #f6f6f6;
+  font-size: 16px;
+  font-weight: 600;
+}
+.result{
+  text-align: center;
+  font-size: 18px;
+  color: green
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.display-id{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  color: green;
+  animation: blink 1s infinite; 
+}
